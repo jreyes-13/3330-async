@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/source.js"></script>
+</head>
+<body>
+    <h1 class="header">Async JavaScript Playground</h1>
+    <p class="header">
+        Watch <span class="highlight">setTimeout</span>,
+        <span class="highlight">setInterval</span>,
+        and <span class="highlight">callbacks</span> in action.
+    </p>
+
+    <div class="card">
+        <h2>setTimeout()</h2>
+        <p>
+            This callback is scheduled for 3 seconds in the future.
+            Click 'cancel timeout' at anytime.
+        </p>
+        <div class="">
+            <button type="button">Cancel Timeout</button>
+        </div>
+    </div>
+
+    <div class="log">
+        <h2>Event Log</h2>
+        <div id="eventLog"></div>
+    </div>
+    
+    <div id="posts"></div>
+
+</body>
+</html>
